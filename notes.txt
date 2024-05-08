@@ -1,0 +1,26 @@
+
+python generate_patches_flower.py
+
+
+# Training
+python train.py -opt options/train/Flower_S1.yml
+
+--> the model weights are stored in "flower_S1" folder
+
+
+python train.py -opt options/train/Flower_S2.yml
+
+--> the model weights are stored in "flower_S2" folder
+
+# Testing
+## Using pretrained model
+
+Download the pre-trained models (https://drive.google.com/drive/folders/1X3oos6dmtDDo9IqC6SK5RiujMYE6Y22q?usp=drive_link) and place them in experiments/pretrained_models/
+
+modify the weight path in options/test/Flower.yml
+
+python test.py -opt options/test/Flower.yml
+
+
+## Using trained model
+python test.py -opt options/test/Flower.yml
