@@ -24,3 +24,7 @@ https://github.com/superdianuj/HI-Diff/assets/47445756/795a8637-53ae-4c98-9e92-f
 
 https://github.com/superdianuj/HI-Diff/assets/47445756/d2d40a41-617b-4369-8b93-b6ebeabc9365
 
+
+
+# Reference
+https://github.com/zhengchen1999/HI-Diff
